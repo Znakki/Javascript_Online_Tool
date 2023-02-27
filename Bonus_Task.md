@@ -2,7 +2,7 @@ Issue #1 429 Too Many Requests, An error occurs every 10 requests in a row
 Improving: Turning on a real caching of requests in a period of time with the same parameters.
 The service must withstand the load
 
-Issue #2 : Unhandled 503/404 error if user executes URI without query params
+Issue #2 : Unhandled 503/404 error if user executes URI without query params.
 Improving: The 503 error should not be received by end-user 
 404 error should be handled and have a detailed description
 GET : https://helloacm.com/api/unix-timestamp-converter/
@@ -29,7 +29,7 @@ in the response received from the system, he must receive the passed original va
 
 Unix Timestamp has limitations ( January 1st, 1970 at 00:00:00 UTC) - (January 19-th 2038 03:14:07 UTC)
 
-Improvement : Supporting timezones and different formats of date namely, this format is not supporting (yet) by this API
+Improvement : Supporting timezones and different formats of date namely
 
 https://docs.oracle.com/cd/E41183_01/DR/Date_Format_Types.html
 
